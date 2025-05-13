@@ -1,0 +1,109 @@
+@media only screen and (max-width: 1128px) {
+    .second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .phone-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #second-upper-heading {
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+    }
+
+    #second-lower-heading {
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .second .card {
+        left: 50%;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .first {
+        flex-direction: column;
+        padding: 34px 20px;
+        max-width: 100vw;
+    }
+
+    .text-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #first-upper-heading {
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+    }
+
+    #first-lower-heading {
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .third {
+        width: 100vw;
+    }
+
+    .third>div :nth-child(2) {
+        max-width: 72vw;
+    }
+
+    #third-upper-heading {
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+    }
+
+    #third-lower-heading {
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+    }
+
+    #fourth-upper-heading {
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+    }
+
+    #fourth-lower-heading {
+        text-align: center;
+        padding: 0 2rem 0 2rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .footer {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10rem;
+    }
+}
+
+@media only screen and (max-width: 764px){
+    .text-buttons{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 694px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+    
+}
